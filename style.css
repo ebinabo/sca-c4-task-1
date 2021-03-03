@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  margin: 0;
+  padding: 0
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem
+}
+nav ul {
+  display: flex
+}
+nav ul li {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  list-style-type: none;
+  margin-left: 1rem
+}
+nav ul li a {
+  color: rgba(31,41,55);
+  text-decoration: none
+}
+main {
+  display: grid;
+  justify-content: center
+}
+main .container {
+  margin-top: 1rem;
+  max-width: 32rem;
+  width: 100%
+}
+main h1 {
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-top: 1rem;
+  color: rgba(31,41,55)
+}
+main p {
+  margin-top: 1rem;
+  color: rgba(75,85,99)
+}
+main[page=home] span {
+  font-weight: 600;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: rgba(75,85,99);
+  letter-spacing: .025em
+}
+main[page=home] h1 {
+  margin-top: 0
+}
+main[page=home] img {
+  margin-top: 1rem
+}
+main[page=work] .work-item {
+  margin-top: 2rem
+}
+main[page=work] .work-item p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: rgba(31,41,55)
+}
+main[page=story] img,
+main[page=studio] form {
+  margin-top: 1rem;
+  width: 100%
+}
+main[page=studio] input,
+main[page=studio] label,
+main[page=studio] textarea {
+  display: block;
+  width: 100%
+}
+main[page=studio] input,
+main[page=studio] textarea {
+  --tw-border-opacity: 1;
+  border-color: rgba(31,41,55)
+}
+main[page=studio] label {
+  margin-top: .5rem;
+  margin-bottom: .125rem
+}
+main[page=studio] button {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31,41,55);
+  border-style: none;
+  margin-top: .75rem;
+  color: rgba(249,250,251);
+  padding: .25rem .75rem
+}
+footer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: rgba(31,41,55)
+}
